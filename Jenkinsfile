@@ -18,5 +18,10 @@ pipeline {
                 
             }
         }
+        post{
+            always{
+                emailext body: 'summary', subject: 'Jenkinpipeline', to: 'gnavyasree2001@gmail.com'
+            }
+        }
     }
 }
