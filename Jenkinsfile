@@ -24,7 +24,7 @@ pipeline {
            {
               always
               {
-                 emailext body: 'summary', replyTo: 'ganvayasree2001@gmail.com', subject: 'jenkinspipeline', to: 'gnavyasree2001@gmail.com'
+                 emailext body: 'summary', replyTo: 'ganvayasree2001@gmail.com', subject: 'jenkinspipeline', to: 'gnavyasree2001@gmail.com'//this is post line
               }
            }
 }
